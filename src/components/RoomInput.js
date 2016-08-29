@@ -59,6 +59,7 @@ class RoomInput extends Component {
           size="30"
           title="At least 5 letters and numbers, a-z A-Z 0-9"
           pattern="[a-zA-Z0-9]{5,30}" />
+        <button>Go!</button>
       </form>
     )
   }

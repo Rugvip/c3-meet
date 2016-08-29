@@ -48,6 +48,21 @@ $huge: 8vmin;
     font-size: $big;
     border-style: dotted;
   }
+  button {
+    margin-left: 5px;
+    background-color: green;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: $big - 0.4;
+  }
+  button:hover {
+    background-color: #006700;
+    cursor: pointer;
+  }
 }
 
 .roomPage {
